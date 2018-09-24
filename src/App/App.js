@@ -16,9 +16,9 @@ export default class App extends Component {
             <Link to="/projects">
               <Button>Projects</Button>
             </Link>
-            <Link to="/resume">
+            <a href="http://toriandmatt.com/resume.pdf">
               <Button>Resume</Button>
-            </Link>
+            </a>
             <Link to="/contact">
               <Button>Contact</Button>
             </Link>
