@@ -1,0 +1,12 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #f2f4f6;
+  background-position: center bottom;
+  background-image:url('_assets/images/test.png');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  margin:0;
+  padding:0;
+  background-size: cover;
+}

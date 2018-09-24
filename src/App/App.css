@@ -1,0 +1,37 @@
+.links {
+  position: absolute;
+  top:0;
+  right:0;
+  padding:20px;
+}
+.links a {
+  text-decoration: none;
+}
+.links button {
+  font-weight:300;
+  font-size:14px;
+  margin-left:10px;
+  text-transform: none;
+}
+.header-title {
+ flex-grow: 1;
+}
+.app-header {
+  position: absolute;
+  text-decoration: none;
+  top:0;
+  left:0;
+  padding:15px 20px;
+}
+.app-header > a {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #1a1a1a;
+  font-weight: 700;
+  text-decoration: none;
+}
+.small-size { display:none; }
+@media only screen and (max-width: 599px) {
+  .small-size { display:block; }
+  .full-size { display:none; }
+}
